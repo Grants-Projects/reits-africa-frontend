@@ -12,12 +12,12 @@ export default function Sidebar() {
           Reits Africa
         </h2>
 
-        <Link href='#'>
+        <Link href='/dashboard'>
           <a>
-            <SidebarLink text='Dashboard' Icon={BsFillGrid1X2Fill} active />
+            <SidebarLink text='Dashboard' Icon={BsFillGrid1X2Fill} />
           </a>
         </Link>
-        <Link href='#'>
+        <Link href='/portfolio'>
           <a>
             <SidebarLink text='Portfolio' Icon={BiBriefcase} />
           </a>
