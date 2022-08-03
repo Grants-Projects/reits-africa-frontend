@@ -1,6 +1,6 @@
 import { MdOutlineArrowForwardIos, MdError } from 'react-icons/md';
 
-export default function Portfolio() {
+export default function PortfolioInfo() {
   return (
     <div className='mb-10 px-5'>
       <div className='wrapper'>
@@ -22,34 +22,20 @@ export default function Portfolio() {
               <h4 className='text-[#747475] text-sm font-medium'>
                 Total Asset
               </h4>
-              <p className='bg-[#F2F4FA] py-1 px-2 text-[#49B464] rounded-md  text-sm font-bold absolute top-6 right-2'>
-                0%
+              <p className='bg-[#F2F4FA] py-1 px-2 text-[#49B464] text-sm font-bold rounded-md absolute top-6 right-2'>
+                20%
               </p>
 
               <p className='text-[24px] text-[#27262E] my-3 font-medium'>
-                0.00 NGN
+                1334 NGN
               </p>
 
               <div className='bg-[#F2F4FA] rounded-lg px-4 py-2'>
                 <span className='text-sm font-bold text-[#49B464]'>
-                  N0.00(30d)
+                  N300.00(30d)
                 </span>
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* Assets */}
-        <div className='mt-5'>
-          <h3 className='text-lg md:text-2xl'>My Assets</h3>
-          <div className='flex flex-col items-center mt-5'>
-            <MdError className='w-8 h-8' />
-            <p className='mt-3 text-sm'>
-              You currently have no assets Head over to{' '}
-              <span className='text-redColor'>Propeties </span>
-              tab or <span className='text-redColor'>Trade </span>
-              to buy assets
-            </p>
           </div>
         </div>
       </div>
