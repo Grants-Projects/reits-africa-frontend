@@ -10,7 +10,7 @@ export default function Dashboard() {
       </div>
 
       <div className='wrapper'>
-        <div className='flex items-center justify-between md:mt-3 lg:mt-10'>
+        <div className='flex items-center justify-between mt-3'>
           <h3 className='text-lg md:text-2xl'>Overview</h3>
           <button className='bg-[#EC3335] sm:text-md text-white shadow-lg px-6 py-2 rounded-md'>
             + List Property
