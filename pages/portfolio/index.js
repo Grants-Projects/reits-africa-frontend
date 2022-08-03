@@ -1,16 +1,14 @@
-import Layout from '@/components/Layout';
 import Sidebar from '@/components/Sidebar/Sidebar';
-import Dashboard from '@/components/Dashboard/Dashboard';
-import Transactions from 'pages/transactions';
+import Portfolio from '@/components/Portfolio/Portfolio';
+import Layout from '@/components/Layout';
 
-export default function DashboardPage() {
+export default function PortfolioPage() {
   return (
-    <Layout title='Dashboard'>
+    <Layout title='Portfolio'>
       <div className='md:9/12 md:ml-40 lg:ml-60 md:px-10 mt-10 max-w-[2560px] mb-20'>
         <div className='flex flex-col xxl:ml-60'>
           <Sidebar />
-          <Dashboard />
-          <Transactions />
+          <Portfolio />
         </div>
       </div>
     </Layout>
