@@ -22,7 +22,7 @@ export default function Sidebar() {
             <SidebarLink text='Portfolio' Icon={BiBriefcase} />
           </a>
         </Link>
-        <Link href='#'>
+        <Link href='/wallet'>
           <a>
             <SidebarLink text='Wallet' Icon={BiWallet} />
           </a>
