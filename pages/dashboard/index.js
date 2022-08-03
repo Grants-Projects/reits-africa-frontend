@@ -3,7 +3,7 @@ import { data } from '../../data';
 
 export default function Dashboard() {
   return (
-    <div className='mb-32'>
+    <div className='mb-10'>
       <div>
         <h1 className='text-base mt-5'>Welcome</h1>
         <h2 className='text-[28px] md:text-[48px]'>Hello, Marv</h2>
