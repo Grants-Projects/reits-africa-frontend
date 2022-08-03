@@ -6,7 +6,7 @@ import SidebarLink from '@/components/SidebarLink/SidebarLink';
 
 export default function Sidebar() {
   return (
-    <div className='w-full md:w-1/5 bg-[#F8F8F8] text-[#837878] px-2 text-center fixed bottom-0 md:pt-8 md:top-0 md:left-0 h-16 md:h-screen'>
+    <div className='z-50 w-full md:w-1/5 bg-[#F8F8F8] text-[#837878] px-2 text-center fixed bottom-0 md:pt-8 md:top-0 md:left-0 h-16 md:h-screen'>
       <div className='flex flex-row justify-between md:flex-col md:relative'>
         <h2 className='hidden md:block text-[#232C3D] text-base lg:text-2xl font-semibold mb-5'>
           Reits Africa
