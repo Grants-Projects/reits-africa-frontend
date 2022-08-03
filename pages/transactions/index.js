@@ -1,6 +1,6 @@
 export default function Transactions() {
   return (
-    <div className='mb-32 px-5'>
+    <div className='px-5'>
       <h3 className='text-lg md:text-2xl'>Transactions</h3>
       <div className='overflow-x-auto relative shadow-md sm:rounded-lg'>
         <table className='w-full text-sm text-left text-gray-500 dark:text-gray-400'>
