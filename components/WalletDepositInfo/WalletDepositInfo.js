@@ -1,7 +1,7 @@
 import { MdOutlineArrowForwardIos } from 'react-icons/md';
 import { depositData } from '../../data';
 
-export default function DepositWalletInfo() {
+export default function WalletDepositInfo() {
   return (
     <div className='mb-10 px-5'>
       <div className='wrapper'>
