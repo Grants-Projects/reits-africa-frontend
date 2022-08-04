@@ -10,7 +10,7 @@ export default function Dashboard() {
       </div>
 
       <div className='wrapper'>
-        <div className='flex items-center justify-between mt-3'>
+        <div className='flex items-center justify-between'>
           <h3 className='text-lg md:text-2xl'>Overview</h3>
           <button className='bg-[#EC3335] sm:text-md text-white shadow-2xl px-6 py-2 rounded-md'>
             + List Property
@@ -21,7 +21,7 @@ export default function Dashboard() {
           {data.map((item) => (
             <div
               key={item.id}
-              className='flex bg-white shadow-md rounded-md py-8 px-8 md:px-10 lg:px-10'
+              className='flex justify-center bg-white shadow-md rounded-md py-8 px-8 md:px-10 lg:px-10'
             >
               {/* CardList */}
               <div>
