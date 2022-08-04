@@ -21,7 +21,7 @@ export default function Dashboard() {
           {data.map((item) => (
             <div
               key={item.id}
-              className='flex justify-center bg-white shadow-md rounded-md py-8 px-8 md:px-10 lg:px-10'
+              className='flex justify-center bg-white shadow-md rounded-md py-8'
             >
               {/* CardList */}
               <div>
