@@ -1,6 +1,6 @@
 import Layout from '@/components/Layout';
 import Sidebar from '@/components/Sidebar/Sidebar';
-import Dashboard from '@/components/Dashboard/Dashboard';
+import DashboardOverview from '@/components/Dashboard/Dashboard';
 import Transactions from 'pages/transactions';
 
 export default function DashboardPage() {
@@ -9,7 +9,7 @@ export default function DashboardPage() {
       <div className='md:9/12 md:ml-28 lg:ml-52 md:px-10 mt-10 max-w-[2560px] mb-20'>
         <div className='flex flex-col xxl:ml-60'>
           <Sidebar />
-          <Dashboard />
+          <DashboardOverview />
           <Transactions />
         </div>
       </div>
