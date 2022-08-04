@@ -1,3 +1,5 @@
+import { tableData } from '../../data';
+
 export default function AssetsTable() {
   return (
     <div className='px-5'>
@@ -23,19 +25,25 @@ export default function AssetsTable() {
               </th>
             </tr>
           </thead>
+
           <tbody>
-            <tr className='bg-white border-b dark:bg-gray-900 dark:border-gray-700'>
-              <th
-                scope='row'
-                className='py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white'
+            {tableData.map((property) => (
+              <tr
+                key={property.id}
+                className='bg-white border-b dark:bg-gray-900 dark:border-gray-700'
               >
-                3 BEDROOM APARTMENT LEKKI
-              </th>
-              <td className='py-4 px-6'>RFCE345</td>
-              <td className='py-4 px-6'>100</td>
-              <td className='py-4 px-6'>2000 NEAR</td>
-              <td className='py-4 px-6'>20%</td>
-            </tr>
+                <th
+                  scope='row'
+                  className='py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white'
+                >
+                  {property.propertyType}
+                </th>
+                <td className='py-4 px-6'>{property.assetId}</td>
+                <td className='py-4 px-6'>{property.amount}</td>
+                <td className='py-4 px-6'>{property.value}</td>
+                <td className='py-4 px-6'>{property.profit}</td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>
