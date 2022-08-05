@@ -6,7 +6,7 @@ export default function TransferAssetOverview() {
     <div className='mb-10 px-5'>
       <div className='wrapper'>
         <div className='flex items-center justify-between mt-3'>
-          <h3 className='text-lg md:text-2xl'>Wallet Withdrawal</h3>
+          <h3 className='text-lg md:text-2xl'>Wallet Transfer Asset</h3>
           <div className='flex space-x-3 scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-stone-300'>
             <button className='bg-[#EC3335] sm:text-md text-white shadow-sm mb-3 px-6 py-2 rounded-md ml-auto'>
               Deposit
