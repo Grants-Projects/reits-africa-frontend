@@ -2,11 +2,11 @@ import { CgArrowsExchangeAlt } from 'react-icons/cg';
 
 export default function ExchangeTokenAmount() {
   return (
-    <div className='flex md:ml-4 px-4 md:px-0'>
-      <div className='mb-3 w-full lg:w-2/3 xl:w-96 py-8 px-16 bg-white shadow-lg rounded-md'>
+    <div className='flex md:ml-4 px-3 md:px-0'>
+      <div className='mb-3 w-full lg:w-2/3 xl:w-96 py-8 px-3 md:px-16 bg-white shadow-lg rounded-md'>
         <div>
           <div className='flex space-x-4 justify-between'>
-            <div className='bg-[#F1F3F6] rounded-lg py-4 px-2 md:px-4 lg:px-10'>
+            <div className='bg-[#F1F3F6] rounded-lg py-4 px-3 md:px-4 lg:px-10'>
               <h3 className='text-[#171822] text-base lg:text-2xl font-bold'>
                 2.6 NEAR
               </h3>
