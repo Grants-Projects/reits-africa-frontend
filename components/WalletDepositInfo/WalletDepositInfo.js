@@ -1,7 +1,10 @@
+import { useRouter } from 'next/router';
 import { MdOutlineArrowForwardIos } from 'react-icons/md';
 import { depositData } from '../../data';
 
 export default function WalletDepositInfo() {
+  const router = useRouter();
+
   return (
     <div className='mb-10 px-5'>
       <div className='wrapper'>
@@ -11,7 +14,11 @@ export default function WalletDepositInfo() {
             <button className='bg-[#EC3335] sm:text-md text-white shadow-sm mb-3 px-6 py-2 rounded-md ml-auto'>
               Deposit
             </button>
-            <button className='bg-[#EDF2F7] sm:text-md text-black font-semibold shadow-sm mb-3 border border-stone-500 px-6 py-2 rounded-md'>
+            <button
+              onClick={() => router.push('/withdrawal')}
+              className='bg-[#EDF2F7] sm:text-md text-black font-semibold shadow-sm mb-3 border border-stone-500 px-6 py-2 rounded-md transition duration-1000 ease-in-out
+              hover:bg-black transform hover:text-white hover:scale-120'
+            >
               Withdraw
             </button>
             <button className='bg-[#EDF2F7] sm:text-md text-black font-semibold shadow-sm mb-3 border border-stone-500 px-6 py-2 rounded-md'>
