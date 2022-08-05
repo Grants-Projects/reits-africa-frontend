@@ -10,7 +10,7 @@ export default function SidebarLink({ Icon, text, active }) {
       }`}
       onClick={() => active && router.push('/')}
     >
-      <Icon className='h-6 w-6 sm:text-center text-[#837878]' />
+      <Icon className='h-6 w-6 sm:text-center text-[#837878] group-hover:text-redColor' />
       <p className='group-hover:text-redColor'>{text}</p>
     </div>
   );

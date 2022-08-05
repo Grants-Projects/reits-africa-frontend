@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { BiPowerOff, BiBriefcase, BiWallet } from 'react-icons/bi';
-import { BsFillGrid1X2Fill } from 'react-icons/bs';
+import { BsGrid } from 'react-icons/bs';
 import { AiOutlineLineChart } from 'react-icons/ai';
 import SidebarLink from '@/components/SidebarLink/SidebarLink';
 
@@ -14,7 +14,7 @@ export default function Sidebar() {
 
         <Link href='/dashboard'>
           <a>
-            <SidebarLink text='Dashboard' Icon={BsFillGrid1X2Fill} />
+            <SidebarLink text='Dashboard' Icon={BsGrid} />
           </a>
         </Link>
         <Link href='/portfolio'>
