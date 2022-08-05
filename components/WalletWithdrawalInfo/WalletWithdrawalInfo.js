@@ -16,8 +16,8 @@ export default function WalletWithdrawalInfo() {
             </button>
             <button
               onClick={() => router.push('/withdrawal')}
-              className='bg-[#EDF2F7] sm:text-md text-black mb-3 font-semibold shadow-sm px-6 py-2 p-4 rounded-md hover:text-white border border-stone-500 transition duration-1000 ease-in-out
-               hover:bg-black transform hover:scale-120
+              className='bg-[#EDF2F7] sm:text-md text-black mb-3 font-semibold shadow-sm px-6 py-2 p-4 rounded-md border border-stone-500 transition duration-1000 ease-in-out
+               hover:bg-black transform hover:text-white hover:scale-120
                '
             >
               Withdraw
