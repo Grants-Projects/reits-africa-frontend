@@ -1,5 +1,6 @@
 import Layout from '@/components/Layout';
 import WalletWithdrawal from '@/components/WalletWithdrawal/WalletWithdrawal';
+import WalletDepositStepTwo from '@/components/WalletDepositStepTwo/WalletDepositStepTwo';
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <main>
         <h2>HomePage</h2>
         <WalletWithdrawal />
+        {/* <WalletDepositStepTwo /> */}
       </main>
     </Layout>
   );
