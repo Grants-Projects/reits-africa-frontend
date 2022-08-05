@@ -72,3 +72,33 @@ export const tableData = [
     profit: '30%',
   },
 ];
+
+export const traderData = [
+  {
+    id: 1,
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1659732694/ea-kazi/trader_slgeck.png',
+    userName: 'Shamshudeen',
+    tradeCompleted: '578 Trades',
+    status: 'completed',
+    nearAmount: 'N100',
+    nairaAmount: '200 NGN',
+  },
+  {
+    id: 2,
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1659732694/ea-kazi/trader_slgeck.png',
+    userName: 'Marvelous',
+    tradeCompleted: '248 Trades',
+    status: 'completed',
+    nearAmount: 'N300',
+    nairaAmount: '600 NGN',
+  },
+  {
+    id: 3,
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1659732694/ea-kazi/trader_slgeck.png',
+    userName: 'Emeka',
+    tradeCompleted: '798 Trades',
+    status: 'completed',
+    nearAmount: 'N2200',
+    nairaAmount: '800 NGN',
+  },
+];
