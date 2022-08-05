@@ -5,7 +5,7 @@ import { traderData } from '../../data';
 export default function PeerToPeerExchange() {
   return (
     <div className='flex md:ml-4 px-4 md:px-0'>
-      <div className='mb-3 w-full lg:w-2/3 xl:w-96 py-8 px-16 bg-white shadow-lg rounded-md'>
+      <div className='mb-3 w-full lg:w-2/3 xl:w-96 py-10 px-16 bg-white shadow-lg rounded-md'>
         <div>
           {/* Near Acct Balance */}
           <div className='flex space-x-4 justify-between'>
