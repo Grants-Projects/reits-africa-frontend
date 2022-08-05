@@ -6,7 +6,7 @@ export default function SendWalletAddress() {
 
   return (
     <div className='flex md:ml-4 px-4 md:px-0'>
-      <div className='mb-3 w-full lg:w-2/3 xl:w-96 py-8 px-16 bg-white shadow-lg rounded-md'>
+      <div className='mb-3 w-full lg:w-2/3 xl:w-96 py-8 px-3 md:px-10 bg-white shadow-lg rounded-md'>
         <div className='relative'>
           <MdOutlineArrowForwardIos className='absolute top-11 right-2 w-5 h-5 text-[#817C8E]' />
         </div>
