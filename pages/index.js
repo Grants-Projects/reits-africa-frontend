@@ -6,7 +6,6 @@ export default function Home() {
     <Layout title='Reits Africa | Home'>
       <main>
         <h2>HomePage</h2>
-        {/* <SuccessPage /> */}
       </main>
     </Layout>
   );

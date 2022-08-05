@@ -1,35 +1,21 @@
-import { useRouter } from 'next/router';
 import { MdOutlineArrowForwardIos } from 'react-icons/md';
 import { depositData } from '../../data';
 
-export default function WalletDepositInfo() {
-  const router = useRouter();
-
+export default function TransferAssetOverview() {
   return (
     <div className='mb-10 px-5'>
       <div className='wrapper'>
         <div className='flex items-center justify-between mt-3'>
-          <h3 className='text-lg md:text-2xl'>My Wallet</h3>
+          <h3 className='text-lg md:text-2xl'>Wallet Withdrawal</h3>
           <div className='flex space-x-3 scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-stone-300'>
             <button className='bg-[#EC3335] sm:text-md text-white shadow-sm mb-3 px-6 py-2 rounded-md ml-auto'>
               Deposit
             </button>
-            <button
-              onClick={() => router.push('/withdrawal')}
-              className='bg-[#EDF2F7] sm:text-md text-black font-semibold shadow-sm mb-3 border border-stone-500 px-6 py-2 rounded-md transition duration-1000 ease-in-out
-              hover:bg-black transform hover:text-white hover:scale-120'
-            >
+            <button className='bg-[#EDF2F7] sm:text-md text-black font-semibold shadow-sm mb-3 border border-stone-500 px-6 py-2 rounded-md'>
               Withdraw
             </button>
             <button className='bg-[#EDF2F7] sm:text-md text-black font-semibold shadow-sm mb-3 border border-stone-500 px-6 py-2 rounded-md'>
               Exchange
-            </button>
-            <button
-              onClick={() => router.push('/send')}
-              className='bg-[#EDF2F7] sm:text-md text-black font-semibold shadow-sm mb-3 border border-stone-500 px-6 py-2 rounded-md transition duration-1000 ease-in-out
-              hover:bg-black transform hover:text-white hover:scale-120'
-            >
-              Send
             </button>
             <button className='bg-[#EDF2F7] sm:text-md text-black font-semibold shadow-sm mb-3 border border-stone-500 px-6 py-2 rounded-md'>
               P2P
