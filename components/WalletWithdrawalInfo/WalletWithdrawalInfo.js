@@ -1,23 +1,31 @@
+import { useRouter } from 'next/router';
 import { MdOutlineArrowForwardIos } from 'react-icons/md';
 import { depositData } from '../../data';
 
-export default function WalletDepositInfo() {
+export default function WalletWithdrawalInfo() {
+  const router = useRouter();
+
   return (
     <div className='mb-10 px-5'>
       <div className='wrapper'>
         <div className='flex items-center justify-between mt-3'>
           <h3 className='text-lg md:text-2xl'>My Wallet</h3>
           <div className='flex space-x-3 scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-stone-300'>
-            <button className='bg-[#EC3335] sm:text-md text-white shadow-sm mb-3 px-6 py-2 rounded-md ml-auto'>
+            <button className='bg-[#EC3335] sm:text-md text-white mb-3 shadow-sm px-6 py-2 rounded-md ml-auto'>
               Deposit
             </button>
-            <button className='bg-[#EDF2F7] sm:text-md text-black font-semibold shadow-sm mb-3 border border-stone-500 px-6 py-2 rounded-md'>
+            <button
+              onClick={() => router.push('/withdrawal')}
+              className='bg-[#EDF2F7] sm:text-md text-black mb-3 font-semibold shadow-sm px-6 py-2 p-4 rounded-md hover:text-white border border-stone-500 transition duration-1000 ease-in-out
+               hover:bg-black transform hover:scale-120
+               '
+            >
               Withdraw
             </button>
-            <button className='bg-[#EDF2F7] sm:text-md text-black font-semibold shadow-sm mb-3 border border-stone-500 px-6 py-2 rounded-md'>
+            <button className='bg-[#EDF2F7] sm:text-md text-black mb-3 border border-stone-500 font-semibold shadow-sm px-6 py-2 rounded-md'>
               Exchange
             </button>
-            <button className='bg-[#EDF2F7] sm:text-md text-black font-semibold shadow-sm mb-3 border border-stone-500 px-6 py-2 rounded-md'>
+            <button className='bg-[#EDF2F7] sm:text-md text-black mb-3 border border-stone-500 font-semibold shadow-sm px-6 py-2 rounded-md'>
               P2P
             </button>
           </div>

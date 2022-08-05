@@ -1,6 +1,9 @@
+import { useRouter } from 'next/router';
 import { MdOutlineArrowForwardIos } from 'react-icons/md';
 
-export default function SelectAssetDropDown() {
+export default function WalletSelectAsset() {
+  const router = useRouter();
+
   return (
     <div className='flex ml-4'>
       <div className='mb-3 w-2/3 xl:w-96 py-8 px-16  bg-white shadow-lg rounded-md'>
@@ -29,11 +32,11 @@ export default function SelectAssetDropDown() {
           aria-label='.form-select-lg example'
         >
           <option selected>Select asset</option>
-          <option value='1'>One</option>
-          <option value='2'>Two</option>
+          <option value='1'>NGN</option>
         </select>
 
         <button
+          onClick={() => router.push('/withdrawal/stepone')}
           className='bg-black shadow-lg w-full text-white px-14 py-3 rounded-md transition duration-1000 ease-in-out
          hover:text-redColor transform hover:scale-120'
         >

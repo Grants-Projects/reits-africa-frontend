@@ -7,7 +7,7 @@ export default function Layout({ title, description, keywords, children }) {
         <title>{title}</title>
         <meta name='description' content={description} />
         <meta name='keywords' content={keywords} />
-        <link rel='icon' href='/favicon.svg' />
+        <link rel='icon' href='/favicon.png' />
       </Head>
 
       <div className='px:10 md:px-12'>{children}</div>
