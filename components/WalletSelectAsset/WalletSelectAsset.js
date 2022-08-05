@@ -8,7 +8,7 @@ export default function WalletSelectAsset() {
     <div className='flex ml-4'>
       <div className='mb-3 w-2/3 xl:w-96 py-8 px-16  bg-white shadow-lg rounded-md'>
         <div className='relative'>
-          <MdOutlineArrowForwardIos className='absolute top-12 right-2 w-5 h-5  text-[#817C8E]' />
+          <MdOutlineArrowForwardIos className='absolute top-10 md:top-12 right-2 w-5 h-5  text-[#817C8E]' />
         </div>
 
         <label className='text-lg md:text-2xl mb-1'>Select Asset</label>
